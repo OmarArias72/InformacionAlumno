@@ -11,19 +11,18 @@ package informacionpersonal;
 
 public class InformacionPersonal {
 
-    String nombre = "Maritza",
-           apellido_paterno = "Flores",
-           apellido_materno = "Domínguez";
-    int edad = 30;
-    String fecha_nacimiento = "18/Julio/2008";
-    String hobbies = "Leer";
-    
-    
+    String nombreDelAlumno = "Omar";
+    String numeroDeCuenta = "1742771";
+    String semestreCursado = "2do semestre";
+    String materiasCantidad = "6";
+    String horario = "7 am - 2:30 pm";
+            
     public void Informacion(){        
-        System.out.println("El nombre completo de la persona es: " + nombre +" "+ apellido_paterno +" "+ apellido_materno );
-        System.out.println("Su edad es: " + edad +" años ");
-        System.out.println("Su fecha de nacimiento es: " + fecha_nacimiento);
-        System.out.println("Su pasatiempo es: " + hobbies);
+        System.out.println("El nombre del alumno es: "+ nombreDelAlumno);
+        System.out.println("Su numero de cuenta es: "+ numeroDeCuenta);
+        System.out.println("El semestre que cursa es: "+ semestreCursado);
+        System.out.println("La cantidad de materias que toma son: "+ materiasCantidad);
+        System.out.println("Su horario es de: "+ horario);
     }
     
     public static void main(String[] args) {
